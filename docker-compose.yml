@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  next:
+    container_name: next-front
+    build: .
+    restart: always
+    ports:
+      - 3000:3000
